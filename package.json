@@ -1,0 +1,25 @@
+{
+  "name": "cerebro-npms",
+  "version": "0.1.0",
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "debounce": "^1.1.0",
+    "rc-progress": "^2.2.4",
+    "react-percentage-circle": "^1.1.3",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.20"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}
