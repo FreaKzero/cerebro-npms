@@ -1,0 +1,8 @@
+.mainscore {
+  text-shadow: 2px 2px 0px rgba(150, 150, 150, 0.7);
+  padding: 0 3px 0 3px;
+  border-radius: 2px;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+}

@@ -1,0 +1,27 @@
+.scores {
+  display: flex;
+  width: 600px;
+  max-width: 600px;
+}
+
+.scores > div {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.scores > div > h2 {
+  position: absolute;
+  left: 80px;
+  top: 73px;
+}
+
+.scores > div > svg {
+  width: 100px;
+}
+
+.scores > div > h3 {
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+.flags {
+  margin-top: 5px;
+}
+
+.flag {
+  padding: 0 3px 0 3px;
+  border-radius: 2px;
+  border: none;
+  background-color: #BE1C1C;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+}
