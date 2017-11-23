@@ -1,3 +1,7 @@
+.main {
+  width: 600px;
+  max-width: 600px;
+}
 .main h1 {
   margin: 0;
   display: inline-block;
@@ -6,52 +10,4 @@
 .version {
   display: inline-block;
   padding-bottom: 5px;
-}
-
-.scores {
-  display: flex;
-  width: 500px;
-}
-
-.scores > div {
-  flex: 1;
-  margin-right: 10px;
-  padding: 5px;
-  position: relative;
-  text-align: center;
-}
-
-.scores > div > h2 {
-  position: absolute;
-  left: 63px;
-  top: 70px;
-}
-
-.scores > div > svg {
-  width: 100px;
-}
-
-.scores > div > h3 {
-  margin: 0;
-}
-
-.flags {
-  margin-top: 5px;
-}
-.flag {
-  padding: 0 3px 0 3px;
-  border-radius: 2px;
-  border: none;
-  background-color: #BE1C1C;
-  color: white;
-  font-size: 10px;
-  margin-right: 5px;
-}
-
-.mainscore {
-  padding: 0 3px 0 3px;
-  border-radius: 2px;
-  color: white;
-  font-size: 10px;
-  margin-right: 5px;
 }
