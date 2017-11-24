@@ -1,3 +1,21 @@
+import debounce from 'p-debounce';
+import request from 'request-promise-native';
+import {memoize} from 'cerebro-tools';
+import { CONFIG_MEMOIZE, CONFIG_DEBOUNCE } from './constants';
+
+const packagesRequest = (query) => request({
+  url: 'https://api.npms.io/v2/search',
+  qs: { q: query },
+  json: true
+}).then(data => data.results);
+
+export const getPackages = debounce(
+  memoize(
+    packagesRequest,
+    CONFIG_MEMOIZE
+  ), CONFIG_DEBOUNCE
+);
+
 export const getColor = (percentage) => {
   // red 	#BE1C1C
   // orange #FFA500
