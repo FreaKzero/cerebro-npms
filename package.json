@@ -4,8 +4,7 @@
   "dependencies": {
     "cerebro-tools": "^0.1.8",
     "cerebro-ui": "^0.0.16",
-    "debounce": "^1.1.0",
-    "markdown-it": "^8.4.0",
+    "p-debounce": "^1.0.0",
     "rc-progress": "^2.2.4",
     "react-markdown": "^3.0.1",
     "react-percentage-circle": "^1.1.3",
