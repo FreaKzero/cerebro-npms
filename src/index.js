@@ -28,7 +28,12 @@ export const fn = ({ term, display, actions, hide }) => {
             subtitle: <Subtitle item={item} />,
             getPreview: () => <Preview item={item} />,
             onSelect: event => {
-              actions.open(item.package.links.npm);
+              
+              const url = (event.altKey) ? 
+              `https://npm.runkit.com/${item.package.name}` :
+              item.package.links.npm
+              
+              actions.open(url);
             }
           })
         });
