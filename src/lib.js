@@ -9,6 +9,15 @@ const packagesRequest = (query) => request({
   json: true
 }).then(data => data.results);
 
+export const termFilter = (term) => {
+  const match = term.match(new RegExp(/^npms\s*(.*)/, 'i'));
+  return {
+    hasTerm: Boolean(match && match[1]),
+    term: match[1].replace(/"/g, '\\"'),
+    cmd: match[0]
+  } 
+}
+
 export const getPackages = debounce(
   memoize(
     packagesRequest,
