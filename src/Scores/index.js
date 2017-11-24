@@ -15,21 +15,21 @@ export default ({ popularity, maintenance, quality }) => (
         />
       </div>
       <div>
-        <p>Popularity</p>
-        <h2>{popularity}</h2>
-        <Circle
-          percent={popularity}
-          strokeWidth="10"
-          strokeColor={getColor(popularity)}
-        />
-      </div>
-      <div>
         <p>Maintenance</p>
         <h2>{maintenance}</h2>
         <Circle
           percent={maintenance}
           strokeWidth="10"
           strokeColor={getColor(maintenance)}
+        />
+      </div>
+      <div>
+        <p>Popularity</p>
+        <h2>{popularity}</h2>
+        <Circle
+          percent={popularity}
+          strokeWidth="10"
+          strokeColor={getColor(popularity)}
         />
       </div>
     </div>

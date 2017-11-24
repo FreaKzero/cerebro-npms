@@ -2,12 +2,32 @@
   margin-top: 5px;
 }
 
-.flag {
+.flagInsecure {
   padding: 0 3px 0 3px;
   border-radius: 2px;
   border: none;
-  background-color: #BE1C1C;
   color: white;
   font-size: 10px;
   margin-right: 5px;
+  background-color: #BE1C1C;
+}
+
+.flagDeprecated {
+  padding: 0 3px 0 3px;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+  background-color: #BE1C1C;
+}
+
+.flagUnstable {
+  padding: 0 3px 0 3px;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+  background-color: #616161;
 }
