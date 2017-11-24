@@ -26,7 +26,7 @@ export const fn = ({ term, display, actions, hide }) => {
             icon,
             title: item.package.name,
             subtitle: <Subtitle item={item} />,
-            getPreview: () => <Preview item={item} actions={ actions } />,
+            getPreview: () => <Preview item={item} />,
             onSelect: event => {
               actions.open(item.package.links.npm);
             }

@@ -4,7 +4,7 @@ import Flags from '../Flags';
 import ReactMarkdown from 'react-markdown';
 import styles from './styles.css'
 
-export default ({ item, actions }) => (
+export default ({ item }) => (
   <div className={styles.main}>
     <h1>{item.package.name}</h1> <span className={styles.version}>({item.package.version})</span>
     <div><Flags flags={item.flags || {}} /></div>
