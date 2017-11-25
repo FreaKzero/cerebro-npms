@@ -1,6 +1,6 @@
 {
   "name": "cerebro-npms",
-  "version": "0.1.0",
+  "version": "0.1.1-rc.0",
   "description": "Cerebro plugin to search NPM packages via NPMS API",
   "license": "MIT",
   "author": "FreaKzero",
