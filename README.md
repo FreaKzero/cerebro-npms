@@ -14,4 +14,4 @@
 Search for NPM packages using `**npms** [search term]`
 
 - <kbd>Return</kbd> - Open a package on the NPM website.
-- <kbd>alt+return</kbd> - Copies `npm install $PACKAGE_NAME --save` to your clipboard
+- <kbd>Alt+Return</kbd> - Copies `npm install $PACKAGE_NAME --save` to your clipboard
