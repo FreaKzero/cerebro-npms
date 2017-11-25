@@ -1,6 +1,9 @@
 {
   "name": "cerebro-npms",
   "version": "0.1.0",
+  "description": "Cerebro plugin to search NPM packages via NPMS API",
+  "license": "MIT",
+  "author": "FreaKzero",
   "dependencies": {
     "cerebro-tools": "^0.1.8",
     "cerebro-ui": "^0.0.16",
@@ -16,7 +19,9 @@
   "main": "dist/index.js",
   "keywords": [
     "cerebro",
-    "cerebro-plugin"
+    "cerebro-plugin",
+    "npm",
+    "package manager"
   ],
   "scripts": {
     "start": "cerebro-scripts start",

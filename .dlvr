@@ -1,0 +1,15 @@
+{
+  "dotenv": ".env",
+  "logfilter": ".*#",
+  "remote": "origin",
+  "npmpublish": false,
+  "notify": true,
+  "githost": {
+    "provider": "github",
+    "repo": "freakzero/cerebro-npms",
+    "release": {
+      "draft": false
+    }
+  },
+  "repo": "freakzero/cerebro-npms"
+}
