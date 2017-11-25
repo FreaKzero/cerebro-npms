@@ -12,6 +12,9 @@ export default ({ item }) => (
       }}>
       {Math.trunc(item.score.final * 100)}
     </span>
-    <Flags flags={item.flags || {}} />
+    <Flags 
+      flags={item.flags || {}} 
+      size='small'
+    />
   </div>
 )

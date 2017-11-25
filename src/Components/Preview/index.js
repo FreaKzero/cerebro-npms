@@ -12,20 +12,38 @@ export default ({ item, actions }) => (
       
       <div className='card-header'>
         <span className='card-header-title'>
-        <h3>{item.package.name}</h3> 
-          ({item.package.version})
+          <div className={styles.headline}>
+            <div className={styles.left}>
+              <h3>{item.package.name}</h3> <span className={styles.version}>({item.package.version})</span>
+              <br />
+              <a 
+                className={styles.author} 
+                onClick={() => actions.open(`https://www.npmjs.com/~${item.package.publisher.username}`)}
+              >
+                {item.package.publisher.username} &lt;{item.package.publisher.email}&gt;
+              </a>
+            </div>
+            <div className={styles.right}>
+              <Flags 
+                flags={item.flags || {}} 
+                size='big' 
+              />
+            </div>
+          </div>
         </span> 
       </div>
 
       <div className='card-content'>
         <div className='content'>
-          <ReactMarkdown source={item.package.description} />
-          <Tags item={item} />
+          <div className={styles.markdown}>
+            <ReactMarkdown source={item.package.description} />
+          </div>
           <Scores
             popularity={Math.trunc(item.score.detail.popularity * 100)}
             maintenance={Math.trunc(item.score.detail.maintenance * 100)}
             quality={Math.trunc(item.score.detail.quality * 100)}
           />
+          <Tags item={item} />
         </div>
       </div>
       <Links item={item} actions={actions} />

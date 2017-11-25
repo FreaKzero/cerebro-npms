@@ -1,5 +1,4 @@
 .main {
-  
 }
 
 .main h3 {
@@ -8,6 +7,33 @@
 }
 
 .version {
-  display: inline-block;
-  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  color: #616161;
+}
+
+.author {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.headline {
+  display: inline-flex;
+  width: 100%;
+}
+
+.headline .left, .headline .right {
+  flex: 1;
+}
+
+.headline .right {
+  text-align: right;
+  max-width: 30%;
+}
+
+.markdown p {
+  margin: 0 0 10px 0;
+  padding: 0;
 }

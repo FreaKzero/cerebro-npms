@@ -1,5 +1,5 @@
 .flags {
-  margin-top: 5px;
+
 }
 
 .flagInsecure {
@@ -30,4 +30,22 @@
   font-size: 10px;
   margin-right: 5px;
   background-color: #616161;
+}
+
+.big .flagInsecure {
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+  font-weight: normal;
+}
+
+.big .flagDeprecated {
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+  font-weight: normal;
+}
+
+.big .flagUnstable {
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+  font-weight: normal;
 }
