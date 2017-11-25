@@ -3,7 +3,7 @@ import { KeyboardNav, KeyboardNavItem } from 'cerebro-ui'
 
 export default ({ item, actions }) => (
   <footer className='card-footer'>
-    {Object.keys(item.package.links).map((name, idx) => 
+    {item.package.links ? Object.keys(item.package.links).map((name, idx) => 
       <KeyboardNavItem 
         key={idx} 
         className='card-footer-item'
@@ -14,6 +14,6 @@ export default ({ item, actions }) => (
       >
         <a>{name}</a>
       </KeyboardNavItem>
-    )}
+    ): ''}
   </footer>
 )
