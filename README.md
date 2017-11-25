@@ -2,7 +2,7 @@
 > Cerebro plugin to search NPM packages via NPMS API
 
 <div align="center">
-  <img src="https://github.com/JordanAdams/cerebro-npm/blob/master/.github/screenshot.png?raw=true" />
+  <img src="https://github.com/FreaKzero/cerebro-npms/raw/master/readme.gif" />
 </div>
 
 ## Features
