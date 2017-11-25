@@ -36,7 +36,12 @@ export default ({ item, actions }) => (
       <div className='card-content'>
         <div className='content'>
           <div className={styles.markdown}>
-            <ReactMarkdown source={item.package.description} />
+            {item.package.description ? 
+              <ReactMarkdown source={item.package.description} />
+              :
+              <p>No Description given</p>
+            }
+            
           </div>
           <Scores
             popularity={Math.trunc(item.score.detail.popularity * 100)}
