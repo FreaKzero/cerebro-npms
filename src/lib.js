@@ -12,9 +12,9 @@ const packagesRequest = (query) => request({
 export const termFilter = (term) => {
   const match = term.match(new RegExp(/^npms\s*(.*)/, 'i'));
   return {
-    hasTerm: Boolean(match && match[1]),
-    term: match[1].replace(/"/g, '\\"'),
-    cmd: match[0]
+    hasTerm: Boolean((match && match[1])) || false,
+    term: Array.isArray(match) ? match[1].replace(/"/g, '\\"') : '',
+    match: match
   } 
 }
 
