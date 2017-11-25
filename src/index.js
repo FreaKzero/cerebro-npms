@@ -27,11 +27,9 @@ export const fn = ({ term, display, actions, hide }) => {
             subtitle: <Subtitle item={item} />,
             getPreview: () => <Preview item={item} actions={actions} />,
             onSelect: event => {  
-              const url = (event.altKey) ? 
-              `https://npm.runkit.com/${item.package.name}` :
-              item.package.links.npm;
-
-              actions.open(url);
+              (event.altKey) ? 
+              actions.copyToClipboard(`npm install ${item.package.name} --save`) :
+              actions.open(item.package.links.npm);
             }
           })
         });
@@ -44,5 +42,4 @@ export const fn = ({ term, display, actions, hide }) => {
       }
     });
   }
-
 }
