@@ -1,7 +1,6 @@
 import React from 'react';
-import Preview from './Preview';
-import Subtitle from './Subtitle';
-import styles from './Preview/styles.css';
+import Preview from './Components/Preview';
+import Subtitle from './Components/Subtitle';
 import icon from './assets/npms-logo.png';
 import {getPackages, termFilter} from './lib';
 import {CONFIG_META_DISPLAY_ID} from './constants';
@@ -27,12 +26,11 @@ export const fn = ({ term, display, actions, hide }) => {
             title: item.package.name,
             subtitle: <Subtitle item={item} />,
             getPreview: () => <Preview item={item} actions={actions} />,
-            onSelect: event => {
-              
+            onSelect: event => {  
               const url = (event.altKey) ? 
               `https://npm.runkit.com/${item.package.name}` :
-              item.package.links.npm
-              
+              item.package.links.npm;
+
               actions.open(url);
             }
           })

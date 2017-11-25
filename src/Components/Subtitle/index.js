@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import {getColor} from '../lib';
+import {getColor} from '../../lib';
 import Flags from '../Flags';
 import styles from './styles.css';
 

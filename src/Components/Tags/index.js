@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import tagImg from '../assets/tag.png';
+import tagImg from '../../assets/tag.png';
 import styles from './styles.css';
 
 export default ({ item, actions }) => (
@@ -9,7 +9,7 @@ export default ({ item, actions }) => (
         <img 
           src={tagImg} 
           className={styles.tagIcon}
-        />
+        />&nbsp;
         {item}
       </span>
     ))}
