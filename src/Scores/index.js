@@ -7,29 +7,32 @@ export default ({ popularity, maintenance, quality }) => (
     <div className={styles.scores}>
       <div>
         <p>Quality</p>
-        <h2>{quality}</h2>
+        <h4 style={{color: getColor(quality)}}>{quality}%</h4>
         <Circle
           percent={quality}
           strokeWidth="10"
           strokeColor={getColor(quality)}
+          strokeLinecap="butt"
         />
       </div>
       <div>
         <p>Maintenance</p>
-        <h2>{maintenance}</h2>
+        <h4 style={{color: getColor(maintenance)}}>{maintenance}%</h4>
         <Circle
           percent={maintenance}
           strokeWidth="10"
           strokeColor={getColor(maintenance)}
+          strokeLinecap="butt"
         />
       </div>
       <div>
         <p>Popularity</p>
-        <h2>{popularity}</h2>
+        <h4 style={{color: getColor(popularity)}}>{popularity}%</h4>
         <Circle
           percent={popularity}
           strokeWidth="10"
           strokeColor={getColor(popularity)}
+          strokeLinecap="butt"
         />
       </div>
     </div>

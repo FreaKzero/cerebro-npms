@@ -1,8 +1,8 @@
 .main {
-  width: 600px;
-  max-width: 600px;
+  
 }
-.main h1 {
+
+.main h3 {
   margin: 0;
   display: inline-block;
 }

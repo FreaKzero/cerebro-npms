@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import styles from './styles.css'
 
 export default ({ item, actions }) => (
-  <div key="-1">
+  <div className={styles.main}>
     <div className='card' tabIndex='1'>
       <div className='card-header'>
         <span className='card-header-title'>
