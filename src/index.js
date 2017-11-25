@@ -26,7 +26,7 @@ export const fn = ({ term, display, actions, hide }) => {
             icon,
             title: item.package.name,
             subtitle: <Subtitle item={item} />,
-            getPreview: () => <Preview item={item} />,
+            getPreview: () => <Preview item={item} actions={actions} />,
             onSelect: event => {
               
               const url = (event.altKey) ? 
