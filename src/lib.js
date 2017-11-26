@@ -26,7 +26,7 @@ export const getPackages = debounce(
 );
 
 export const getColor = (percentage) => {
-  // red 	#BE1C1C
+  // red 	#d41243
   // orange #FFA500
   // green #77ab59
   let color;

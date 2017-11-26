@@ -30,6 +30,7 @@
   "scripts": {
     "start": "cerebro-scripts start",
     "build": "cerebro-scripts build",
-    "test": "cerebro-scripts test"
+    "test": "cerebro-scripts test",
+    "release": "dlvr release pre -p rc -f"
   }
 }
