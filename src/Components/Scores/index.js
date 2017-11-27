@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 import {Circle} from 'rc-progress';
 import {getColor} from '../../lib';
 import styles from './styles.css'

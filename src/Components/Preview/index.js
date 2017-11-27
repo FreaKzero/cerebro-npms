@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import Scores from '../Scores';
 import Flags from '../Flags';
 import Links from '../Links';

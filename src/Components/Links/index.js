@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 import { KeyboardNav, KeyboardNavItem } from 'cerebro-ui'
 
 export default ({ item, actions }) => (

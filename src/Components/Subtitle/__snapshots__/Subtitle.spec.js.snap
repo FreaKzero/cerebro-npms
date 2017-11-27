@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <span
+    className={undefined}
+    style={
+      Object {
+        "backgroundColor": "#77ab59",
+      }
+    }
+  >
+    65
+  </span>
+  <span
+    className={undefined}
+  >
+    <span
+      className={undefined}
+    />
+  </span>
+</div>
+`;

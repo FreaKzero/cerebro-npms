@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <span
+    className="tag"
+  >
+    <img
+      className={undefined}
+      src="tag.png"
+    />
+     
+    npm
+  </span>
+  <span
+    className="tag"
+  >
+    <img
+      className={undefined}
+      src="tag.png"
+    />
+     
+    release
+  </span>
+  <span
+    className="tag"
+  >
+    <img
+      className={undefined}
+      src="tag.png"
+    />
+     
+    changelog
+  </span>
+  <span
+    className="tag"
+  >
+    <img
+      className={undefined}
+      src="tag.png"
+    />
+     
+    cli
+  </span>
+  <span
+    className="tag"
+  >
+    <img
+      className={undefined}
+      src="tag.png"
+    />
+     
+    gitlab
+  </span>
+  <span
+    className="tag"
+  >
+    <img
+      className={undefined}
+      src="tag.png"
+    />
+     
+    management
+  </span>
+</div>
+`;

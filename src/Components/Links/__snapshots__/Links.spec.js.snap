@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<footer
+  className="card-footer"
+>
+  <div
+    className="undefined card-footer-item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onSelect={[Function]}
+    tabIndex={0}
+  >
+    <a>
+      npm
+    </a>
+  </div>
+  <div
+    className="undefined card-footer-item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onSelect={[Function]}
+    tabIndex={0}
+  >
+    <a>
+      homepage
+    </a>
+  </div>
+  <div
+    className="undefined card-footer-item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onSelect={[Function]}
+    tabIndex={0}
+  >
+    <a>
+      repository
+    </a>
+  </div>
+  <div
+    className="undefined card-footer-item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onSelect={[Function]}
+    tabIndex={0}
+  >
+    <a>
+      bugs
+    </a>
+  </div>
+</footer>
+`;
