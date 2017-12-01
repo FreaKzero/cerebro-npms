@@ -1,7 +1,7 @@
 {
   "dotenv": ".env",
   "logfilter": ".*#",
-  "preRun": "npm run build",
+  "posttag": "npm run build",
   "remote": "origin",
   "npmpublish": true,
   "notify": true,
