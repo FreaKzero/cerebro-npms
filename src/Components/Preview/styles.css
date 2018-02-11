@@ -42,6 +42,7 @@
   color: #4a4a4a;
   max-width: 100%;
   position: relative;
+  border-radius: 3px;
 }
 
 .cardHeader {
@@ -72,11 +73,6 @@
 
 .cardContent {
   padding: 1.5rem;
-}
-
-.main h3 {
-  margin: 0;
-  display: inline-block;
 }
 
 .version {
