@@ -5,7 +5,7 @@ import styles from './styles.css';
 export default ({ item, actions }) => (
   <div className={styles.tags}>
     {item.package.keywords ? item.package.keywords.map(item => (
-      <span className='tag'>
+      <span className={styles.tag}>
         <img 
           src={tagImg} 
           className={styles.tagIcon}

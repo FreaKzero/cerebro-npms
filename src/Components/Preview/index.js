@@ -8,10 +8,10 @@ import styles from './styles.css'
 
 export default ({ item, actions }) => (
   <div className={styles.main}>
-    <div className='card' tabIndex='1'>
+    <div className={styles.card} tabIndex='1'>
       
-      <div className='card-header'>
-        <span className='card-header-title'>
+      <div className={styles.cardHeader}>
+        <span className={styles.cardHeaderTitle}>
           <div className={styles.headline}>
             <div className={styles.left}>
               <h3>{item.package.name}</h3> <span className={styles.version}>({item.package.version})</span>
@@ -33,7 +33,7 @@ export default ({ item, actions }) => (
         </span> 
       </div>
 
-      <div className='card-content'>
+      <div className={styles.cardContent}>
         <div className='content'>
           <div className={styles.markdown}>
             {item.package.description ? 
